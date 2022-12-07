@@ -17,16 +17,6 @@
      object-fit: cover;
 }
 
-.slider-gallery__next {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  z-index: 9;
-}
-
 @media screen and (max-width: 1440px) {
   .slider-gallery {
     padding: 62px 0 82px;
