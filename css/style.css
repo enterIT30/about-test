@@ -229,19 +229,6 @@ h4 {
           transform: scale(1.04);
 }
 
-.btn-circle--bureau {
-  width: 190px;
-  height: 190px;
-  background-color: #ffffff;
-  color: #383B41;
-  font-size: 34px;
-}
-
-.btn-circle--bureau:hover {
-  background-color: #A9844B;
-  color: #ffffff;
-}
-
 .btn-order {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -840,9 +827,6 @@ h4 {
   -ms-grid-column-span: 12;
   grid-column: 1/13;
   padding-top: 32.5%;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
   -webkit-transition: background-size 1.5s ease 0s;
   -o-transition: background-size 1.5s ease 0s;
   transition: background-size 1.5s ease 0s;
@@ -2646,9 +2630,6 @@ h4 {
 
 .about-main__img {
   padding-top: 32.5%;
-  background: -webkit-image-set(url("../img/about/about-main.webp") 1x, url("../img/about/about-main.jpg") 1x) no-repeat;
-  background: image-set(url("../img/about/about-main.webp") 1x, url("../img/about/about-main.jpg") 1x) no-repeat;
-  background-position: bottom;
 }
 
 .about-tagline {
@@ -3824,6 +3805,7 @@ h4 {
   width: 100%;
   height: 100%;
   background: url(../img/bureau/slider/bureau-slider.jpg) no-repeat center/cover;
+  border-radius: 20px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -5852,10 +5834,6 @@ h4 {
   .text-22-20 {
     font-size: 20px;
   }
-
-  .btn-circle--bureau {
-    font-size: 30px;
-  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -7210,10 +7188,6 @@ h4 {
     right: 0;
   }
 
-  .bureau-spoiler__img {
-    max-height: 183px;
-  }
-
   .bureau-cost__title {
     max-width: 33.333%;
   }
@@ -7274,13 +7248,6 @@ h4 {
 
   .text-22 {
     font-size: 14px;
-  }
-
-  .btn-circle--bureau {
-    width: 100px;
-    height: 100px;
-    font-size: 18px;
-    line-height: 130%;
   }
 }
 
@@ -8814,12 +8781,6 @@ h4 {
   .btn-circle--everything {
     width: 80px;
     height: 80px;
-  }
-
-  .btn-circle--bureau {
-    width: 80px;
-    height: 80px;
-    font-size: 14px;
   }
 
   .bio-crewman__info h4 {
