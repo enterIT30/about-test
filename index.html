@@ -49,6 +49,10 @@
                 <img src="img/about/service/service-2.jpg" alt="Фото услуг">
                 <div class="service-card__title title-card">Изготовление<br> Портьер</div>
             </a>
+            <button class="about-service__card service-card" data-popup>
+                <img src="img/about/service/service-3.jpg" alt="Фото услуг">
+                <span class="service-card__title title-card">Бесплатная консультация <br> дизайнера интерьеров</span>
+            </button>
         </div>
     </div>
 </div>
@@ -314,11 +318,34 @@
                 <img src="img/about/service/service-2.jpg" alt="Фото услуг">
                 <div class="service-card__title title-card">Изготовление<br> Портьер</div>
             </a>
+            <button class="about-service__card service-card" data-popup>
+                <img src="img/about/service/service-3.jpg" alt="Фото услуг">
+                <span class="service-card__title title-card">Бесплатная консультация <br> дизайнера интерьеров</span>
+            </button>
         </div>
     </div>
 </div>
 </main>
 <footer class="footer"></footer>
+<div class="application-popup">
+    <div class="application-popup__content">
+        <div class="application-popup__body">
+            <button class="application-popup__close" type="button" ></button>
+            <div class="application-popup__wrapper">
+                <div class="application-popup__heading">
+                    <div class="application-popup__title">Бесплатная консультация с нашим дизайнером</div>
+                    <div class="application-popup__desc">Наш специалист свяжется с вами в ближайшее время</div>
+                </div>
+                <form class="application-popup__form form-popup" action="/" method="post">
+                    <input type="hidden" name="" value=""/>
+                    <input class="form-popup__phone" name="phone" type="tel" placeholder="Телефон" required>
+                    <input class="form-popup__submit" name="iblock_submit" type="submit" value="Отправить">
+                    <a href="#" class="form-popup__policy">Политика конфиденциальности</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="libs/inputmask/inputmask.min.js"></script>
 <script src="libs/swiper/swiper-bundle.min.js"></script>
